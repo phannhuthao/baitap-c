@@ -1,0 +1,14 @@
+# ninja log v5
+12	109	7235834929881575	CMakeFiles/untitled.dir/main.cpp.obj	7586d2ad85f287cf
+1	214	7236282645498715	build.ninja	4187b497b9c79263
+2	97	7235845570917951	CMakeFiles/untitled.dir/baitap1.c.obj	2b15d49883d01d1a
+118	233	7235821322607433	untitled.exe	c4946f74b0db3982
+11	119	7235851127111609	CMakeFiles/untitled.dir/baitap4r.c.obj	ab27d9dab47630e0
+19	147	7235834930240595	CMakeFiles/untitled.dir/baitap11.c.obj	26fa6e725963856a
+9	96	7236164791169446	CMakeFiles/untitled.dir/baitap3f.c.obj	94c73cc4837f1178
+18	123	7235840528438755	CMakeFiles/untitled.dir/baitap2r.c.obj	6346ef0f553c778e
+2	120	7235851127121640	CMakeFiles/untitled.dir/baitap3r.c.obj	afd1249f2fc97ed8
+52	637	7236160189381101	CMakeFiles/untitled.dir/baitap5f.c.obj	a4b826615246936b
+43	639	7236160189377607	CMakeFiles/untitled.dir/baitap1f.c.obj	7f0160e49128c8a1
+7	95	7236162599205029	CMakeFiles/untitled.dir/baitap4f.c.obj	5d18098e528fdf4e
+2	643	7236160189450769	CMakeFiles/untitled.dir/baitap5r.c.obj	d9288a10317cabb3
