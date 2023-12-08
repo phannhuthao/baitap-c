@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 add_executable(untitled
         baitap2f.c
         baitap4f.c
-        test.c
+        tinhtong.c
         session2/baitap1.c
         session3/baitap3.c
         session3/baitap4.c
@@ -15,4 +15,7 @@ add_executable(untitled
         session4/baitap3.c
         session4/baitap5.c
         tegd.c
+        session4/baitap4.c
+        "session 6/baitap1.c"
+        "session 5/baitap1.c"
 )
