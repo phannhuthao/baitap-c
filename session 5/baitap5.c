@@ -45,7 +45,7 @@ int main () {
             printf("nhan ma");
             break;
         case 13:
-            printf("loi");
+            printf("khong co");
 
     }
 }

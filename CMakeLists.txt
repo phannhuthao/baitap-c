@@ -17,5 +17,9 @@ add_executable(untitled
         tegd.c
         session4/baitap4.c
         "session 6/baitap1.c"
+        "session 5/baitap5.c"
         "session 5/baitap1.c"
+        "session 5/baitap2.c"
+        "session 5/baitap3.c"
+        "session 6/baitap2.c"
 )

@@ -1,29 +1,18 @@
 #include <stdio.h>
-int main () {
-    int n1, n2,  tong, hieu, tich, thuong, sodu;
-    printf("nhap so n1: ");
-    scanf("%d",&n1);
-    printf("nhap so n2: ");
-    scanf("%d",&n2);
-    switch (n1,n2) {
-        case 1:
-        printf("tong cua 2 so la: %2d\n",n1 +n2);
-            scanf("%d%d",&n1,&n2);
-        break;
-        case 2:
-            printf("tong cua 2 so la: %2d\n",n1 -n2);
-            scanf("%d%d",&n1,&n2);
-            break;
-        case 3:
-            printf("tong cua 2 so la: %2d\n",n1 *n2);
-            scanf("%d%d",&n1,&n2);
-            break;
-        case 4:
-            printf("tong cua 2 so la: %2d\n",n1 / n2);
-            scanf("%d%d",&n1,&n2);
-            break;
-
+int main(){
+    int N,I;
+    do {
+        printf("nhap so nguyen n: ");
+        scanf("%d",&N);
+        if (N<1||N>9){
+            printf("sai roi xin moi ");
+        }
+    } while (N<1||N>9);
+    printf("bang cuu chuong %d la\n",N);
+    for (I=1;I<10;I++){
+        printf("%d X %d = %d\n",N,I,N*I);
     }
+    return 0;
 }
 
 
