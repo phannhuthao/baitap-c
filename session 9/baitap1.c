@@ -1,5 +1,5 @@
 #include <stdio.h>
-void menu(){
+void menu (){
     printf("1. Nhap so phan tu can nhap va gia tri cac phan tu\n");
     printf("2. In ra gia tri cac phan tu dang quan ly\n");
     printf("3. In ra gia tri cac phan tu chan va tinh tong\n");

@@ -32,4 +32,10 @@ add_executable(untitled
         laygiatritrongmangcuaphantu.c
         "session 9/baitap1.c"
         "session 9/baitap2.c"
+        test.c
+        test2.c
+        test3.c
+        test4.c
+        "session 12/baitap1.c"
+        "session 12/baitap2.c"
 )
