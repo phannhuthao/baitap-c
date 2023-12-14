@@ -14,7 +14,7 @@ add_executable(untitled
         session4/baitap1.c
         session4/baitap3.c
         session4/baitap5.c
-        tegd.c
+        tinhchuoikitu.c
         session4/baitap4.c
         "session 6/baitap1.c"
         "session 5/baitap5.c"
@@ -22,4 +22,14 @@ add_executable(untitled
         "session 5/baitap2.c"
         "session 5/baitap3.c"
         "session 6/baitap2.c"
+        "session 7/baitajp3.c"
+        "session 7/baitap2.c"
+        2344.cpp
+        Nhapxuatmang2chieutrongc.c
+        "session 8/baitap1.c"
+        "session 8/baitap2.c"
+        "session 8/baitap3.c"
+        laygiatritrongmangcuaphantu.c
+        "session 9/baitap1.c"
+        "session 9/baitap2.c"
 )
