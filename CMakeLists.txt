@@ -38,4 +38,9 @@ add_executable(untitled
         test4.c
         "session 12/baitap1.c"
         "session 12/baitap2.c"
+        "session 14/baitap1.c"
+        "session 14/baitap2.c"
+        "session 10/baitap1.c"
+        "session 10/baitap2.c"
+        "session 10/baitap3.c"
 )

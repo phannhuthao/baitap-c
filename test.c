@@ -1,16 +1,18 @@
 #include <stdio.h>
-int find_sum(int a, int b, int c) {
-    int tong = a+b;
-    return tong;
-
-}
-int main (void) {
-    printf("Truong hop 1: ");
-    int tong = find_sum(4,5,6);
-    printf("%d ",tong );
-    return tong;
-
-
-
-
+int main()
+{
+    int* pc, c;
+    c = 18;
+    printf("Address of c: %p\n", &c);
+    printf("Value of c: %d\n\n", c);
+    pc = &c;
+    printf("Address of pointer pc: %p\n", pc);
+    printf("Content of pointer pc: %d\n\n", *pc);
+    c = 10;
+    printf("Address of pointer pc: %p\n", pc);
+    printf("Content of pointer pc: %d\n\n", *pc);
+    *pc = -2;
+    printf("Address of c: %p\n", &c);
+    printf("Value of c: %d\n\n", c);
+    return 0;
 }
