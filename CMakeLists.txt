@@ -33,7 +33,7 @@ add_executable(untitled
         "session 9/baitap1.c"
         "session 9/baitap2.c"
         test.c
-        test2.c
+        Mai_xem.c
         test3.c
         test4.c
         "session 12/baitap1.c"
@@ -43,4 +43,6 @@ add_executable(untitled
         "session 10/baitap1.c"
         "session 10/baitap2.c"
         "session 10/baitap3.c"
+        ve_nha_on_lai.c
+        PTIT_KS2023A_PhanNhutHao_de1.c
 )

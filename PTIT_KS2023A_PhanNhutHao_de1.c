@@ -1,7 +1,10 @@
 #include <stdio.h>
 #define Phan_tu 100
 
-int arr[Phan_tu];
+// lúc mà chạy chương trình thì thầy cô chọn lựa chọn nào thì lướt lên 1 tí tại vì lúc nó hiện kết quả mà mấy cái lựa chọn khác nó từ 1 đến 9 nó xuất hiện sau khi có kết quả nên kết quá sẽ ở phía trên mấy cái lựa chọn
+
+int arr[Phan_tu],m,n;
+int a[100];
 int cout = 0;
 
 void Nhapgiatrin() {   // case 1
@@ -47,39 +50,22 @@ void averagePositive() { // case 3
     }
 }
 
-
 void giatrik(int k) { // case 4
     printf("Cac vi tri co gia tri bang %d trong mang la:\n", k);
     int found = 0;
-
     for (int i = 0; i < cout; ++i) {
         if (arr[i] == k) {
             printf("%d ", i);
             found = 1;
         }
     }
-
     if (!found) {
         printf("Khong tim thay gia tri %d trong mang!\n", k);
     }
-
     printf("\n");
 }
 
-
-void bubble_sort_descending(float arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        for (int j = 0; j < n - i - 1; j++) {
-            if (arr[j] < arr[j + 1]) {
-                float temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-        }
-    }
-}
-
-int is_prime(int num) {
+int is_prime(int num) { // case 6
     if (num < 2) return 0;
     for (int i = 2; i * i <= num; i++) {
         if (num % i == 0) return 0;
@@ -97,43 +83,24 @@ int count_primes(float arr[], int n) {
     return count;
 }
 
-void sort_by_divisibility(float arr[], int n) {
-    int left = 0, right = n - 1;
-    while (left < right) {
-        while (left < right && arr[left] / 3 == 0 && ((int)arr[left] % 2 == 0)) {
-            left++;
-        }
-        while (left < right && (arr[right] / 3 != 0 || ((int)arr[right] % 2 != 0))) {
-            right--;
-        }
-        if (left < right) {
-            float temp = arr[left];
-            arr[left] = arr[right];
-            arr[right] = temp;
-            left++;
-            right--;
-        }
-    }
 
-    bubble_sort_descending(arr, left);
-    bubble_sort_descending(arr + left, n - left);
+void chenSo(int m)//case 8
+{
+    int i;
+    for( i=n-1;(i>=0&&a[i]>m);i--){
+        a[i+1]=a[i];
+    }
+    a[i+1]=m;
+    n++;
 }
 
-void insert_value_sorted(float arr[], int *n, float m) {
-    int i = *n - 1;
-    while (i >= 0 && arr[i] < m) {
-        arr[i + 1] = arr[i];
-        i--;
-    }
-    arr[i + 1] = m;
-    (*n)++;
-}
 
-int main() {
-    int choice, n = 0;
-    float my_array[100], m, k;
 
-    while (1) {
+
+int main () {
+    int Chon, n;
+    float m, my_array;
+    do {
         printf("1.Nhap gia tri n phan tu cua mang:\n");
         printf("2.In ra gia tri cac phan tu trong mang:\n");
         printf("3.Tinh trung binh cac phan tu duong(>0) trong mang:\n");
@@ -145,9 +112,9 @@ int main() {
         printf("9.Thoat\n");
 
         printf("Nhap lua chon cua ban: ");
-        scanf("%d", &choice);
+        scanf("%d", &Chon);
 
-        switch (choice) {
+        switch (Chon) {
             case 1:
                 Nhapgiatrin();
                 break;
@@ -168,18 +135,25 @@ int main() {
                 }
                 break;
             case 6:
-                printf("So luong cac so nguyen to trong mang là: %d\n", count_primes(my_array, n));
+                printf("So luong cac so nguyen to trong mang la: %d\n", count_primes(&my_array, n));
                 break;
+            case 8:
+                printf("Nhap gia tri m: ");
+                scanf("%d",&m);
 
+                chenSo(m);
+                printf("Mang sau khi chen: \n");
+                for (int i = 0; i < n; i++) {
+                    printf("%d\n", a[i]);
+                }
                 break;
             case 9:
-                printf("Ket thu chuong trinh: \n");
+                printf("Ket thu chuong trinh\n");
                 break;
             default:
-                printf("khong co su lua chon nay. Moi nhap lai: \n");
+                printf("Khong co su lua chon nay. Moi ban nhap lai lua chon:\n");
                 break;
         }
-        while (choice != 9);
-        return 0;
-    }
+    } while (Chon != 9);
+    return 0;
 }
