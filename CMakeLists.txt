@@ -45,4 +45,5 @@ add_executable(untitled
         "session 10/baitap3.c"
         ve_nha_on_lai.c
         PTIT_KS2023A_PhanNhutHao_de1.c
+        "session 14/baitap3.c"
 )
