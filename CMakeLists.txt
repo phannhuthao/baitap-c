@@ -50,4 +50,10 @@ add_executable(untitled
         test1.c
         "session 13/baitap2.c"
         "session 13/baitap3.c"
+        test2.c
+        test3.c
+        Lam_bai_tap/baitap4.c
+        Lam_bai_tap/baitap1.c
+        Lam_bai_tap/baitap2.c
+        Lam_bai_tap/baitap3.c
 )
