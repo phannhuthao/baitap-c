@@ -25,7 +25,7 @@ add_executable(untitled
         "session 7/baitajp3.c"
         "session 7/baitap2.c"
         2344.cpp
-        Nhapxuatmang2chieutrongc.c
+        Nhap_xuat_mang_2_chieu_trong_c.c
         "session 8/baitap1.c"
         "session 8/baitap2.c"
         "session 8/baitap3.c"
@@ -50,10 +50,12 @@ add_executable(untitled
         test1.c
         "session 13/baitap2.c"
         "session 13/baitap3.c"
-        test2.c
+        nhap_thong_tin_sinh_vien.c
         test3.c
         Lam_bai_tap/baitap4.c
         Lam_bai_tap/baitap1.c
         Lam_bai_tap/baitap2.c
         Lam_bai_tap/baitap3.c
+        "session 23/baitapstruct.c"
+        "test 4.c"
 )
