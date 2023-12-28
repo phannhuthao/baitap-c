@@ -62,5 +62,5 @@ add_executable(untitled
         "Baitap C++/baitap1.cpp"
         Nhap/test.c
         Nhap/test2.c
-        PTIT_KS2023S_PHANNHUTHAO_de1.c
+        PTIT_KS2023S_PHANNHUTHAO_de1_hackathon_02.c
 )

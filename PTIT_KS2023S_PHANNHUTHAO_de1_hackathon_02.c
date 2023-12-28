@@ -7,7 +7,7 @@ struct sinhvien {
     char address[50];
     int status;
 };
-
+// Phan Nhựt Hào
 // Thầy cô chấm bài em thì lúc nhập tên thầy co viết có dấu cách _ để chương trình phân biet được ví dụ là khi muốn cập nhật 1 sinh viên mới thầy cô ghi thế này Phan_Nhut_Hao
 
 struct sinhvien studentList [100];
