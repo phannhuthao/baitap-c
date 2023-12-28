@@ -164,6 +164,7 @@ int main () {
     printf("5.Xap sep sinh vien:\n");
     printf("6.Tim kiem va in ra thong tin cua sinh vien (tim kiem theo ten):\n");
     printf("7.Tim kiem va in ra toan bo thong tin sinh vien theo status:\n");
+    printf("8.Thoat\n");
 
     do {
         int choice;
