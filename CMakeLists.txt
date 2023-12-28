@@ -34,7 +34,7 @@ add_executable(untitled
         "session 9/baitap2.c"
         test.c
         Mai_xem.c
-        test3.c
+        Nhap/test3.c
         test4.c
         "session 12/baitap1.c"
         "session 12/baitap2.c"
@@ -47,15 +47,20 @@ add_executable(untitled
         PTIT_KS2023A_PhanNhutHao_de1.c
         "session 14/baitap3.c"
         "session 13/baitap1.c"
-        test1.c
+        Nhap/test1.c
         "session 13/baitap2.c"
         "session 13/baitap3.c"
         nhap_thong_tin_sinh_vien.c
-        test3.c
+        Nhap/test3.c
         Lam_bai_tap/baitap4.c
         Lam_bai_tap/baitap1.c
         Lam_bai_tap/baitap2.c
         Lam_bai_tap/baitap3.c
         "session 23/baitapstruct.c"
         "test 4.c"
+        test5.cpp
+        "Baitap C++/baitap1.cpp"
+        Nhap/test.c
+        Nhap/test2.c
+        PTIT_KS2023S_PHANNHUTHAO_de1.c
 )

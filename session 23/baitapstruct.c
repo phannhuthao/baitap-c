@@ -39,7 +39,7 @@ int main() {
     scanf("%d", &n);
     city a[n];
     for (int i = 0; i < n; ++i) {
-        printf("nhap chi tiet ten thanh pho thu %d\n", i);
+        printf("nhap chi tiet ten thanh pho thu %d\n", i+1);
         printf("nhap ten thanh pho: ");
         getchar();
         gets(a[i].tenthanhpho);
@@ -53,4 +53,23 @@ int main() {
     tiledocviet(a, n);
     tongthunhap(a, n);
     return 0;
+
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
