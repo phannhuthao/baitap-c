@@ -38,7 +38,7 @@ int main () {
     printf("5.Sap xep thong tin sinh vien theo diem trung binh tang: \n");
     printf("6.Sap xep thong tin sinh vien theo diem trung binh giam: \n");
     printf("7.Tim kiem sinh vien theo lop: \n");
-    printf("8.Tim kiem sinh vien theo diem trong khoang n den m(n va m tu nhap so trong khoang muon nhap): \n");
+    printf("8.Tim kiem sinh vien theo diem trong khoang n den m (n va m tu nhap so trong khoang muon nhap): \n");
     printf("9.Thoat\n");
 
     int choice;
@@ -48,7 +48,7 @@ int main () {
     do {
         int temp;
 
-        printf("Nhap 1 so ban muon chon:");
+        printf("Nhap mot so ban muon chon:");
         scanf("%d", &choice);
         switch (choice) {
             case 1:
@@ -206,7 +206,7 @@ void editStudent() { //case 2
 
     fclose(file);
 
-    printf("Da sua lai thong tin vien: %s.\n", searchID);
+    printf("Da sua lai thong tin vien cua sinh vien co ma : %s.\n", searchID);
 }
 
 void deleteStudent(int index) { //case 3
@@ -228,13 +228,14 @@ void deleteStudent(int index) { //case 3
 
     // Ghi lại dữ liệu còn lại vào file student.txt
     for (int i = 0; i < studentCount; ++i) {
-        fprintf(file, "%s\n", studentList[i].maSinhVien);
+        fprintf(file, "Ma sinh vien: %s Ten: %s Lop: %s Toan: %.2f Ly: %.2f Hoa: %.2f Diem Trung Binh: %.2f\n", studentList[i].maSinhVien, studentList[i].ten,studentList[i].lop, studentList[i].toan, studentList[i].ly, studentList[i].hoa, studentList[i].diemTrungBinh);
         // Ghi thêm các trường thông tin khác của sinh viên
     }
     fclose(file);
 
     printf("Da xoa sinh vien va cap nhat trong file: student.txt \n");
 }
+
 
 void displayStudents() { //case 4
     if (studentCount == 0) {
