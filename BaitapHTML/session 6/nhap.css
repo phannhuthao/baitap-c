@@ -1,5 +1,6 @@
 .personal-details__top {
     display: flex;
+    padding: 15px;
 }
 
 .personal-details__top__right {
@@ -11,7 +12,8 @@
     grid-template-columns: repeat(5, 1fr); /* 5 cột cho item1 đến item5 */
     grid-gap: 10px; 
     border-radius: 10px;
-    padding: 15px;
+    padding: 20px;
+    font-size: 15px;
 }
 
 .grid-item.item6,
@@ -38,11 +40,14 @@
 .item8{
     display:flex;
     width: 200px;
-    height: 120px;
+    height: 60px;
     padding: 20px;
-    margin: 10px;
+    margin: 15px;
     text-align: center;
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    border-radius: 5px;
 }
-
+.personal-details__end {
+        margin-top: 250px; /* Adjust margin as needed */
+        text-align: center;
+}
