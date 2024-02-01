@@ -1,0 +1,26 @@
+.personal-details__top {
+    display: flex;
+}
+
+.personal-details__top__right {
+    flex-basis: 50%; 
+}
+
+.personal-details__bottom {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 cột cho item1 đến item5 */
+    grid-gap: 10px; 
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.grid-item.item6,
+.grid-item.item7,
+.grid-item.item8 {
+    grid-template-columns: repeat(3, 1fr); /* 5 cột cho item1 đến item5 */
+    justify-content: center;
+}
+.c2 {
+    color: green;
+}
+

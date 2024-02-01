@@ -53,6 +53,7 @@ h4 {
 }
 .item8 {
     grid-area: item8;
+
 }
 .item9 {
     grid-area: item9;
@@ -87,4 +88,11 @@ h4 {
 }
 .grid-item a:hover {
     background:rgb(178, 37, 24);
+}
+
+.header {
+    background-image: url('/z5115631276651_b5e0a9004197599a50b14344684738d2.jpg');
+    background-size: cover;
+    color: white;
+    padding: 200px;
 }
