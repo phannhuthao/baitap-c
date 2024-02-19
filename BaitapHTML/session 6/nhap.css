@@ -25,11 +25,11 @@
 .c2 {
     color: green;
 }
-.tiem1 {
+/* .tiem1 {
     margin: 0px;
     padding: 0px;
     
-}
+} */
 .item1,
 .item2,
 .item3,
@@ -48,6 +48,82 @@
     border-radius: 5px;
 }
 .personal-details__end {
-        margin-top: 250px; /* Adjust margin as needed */
+        margin-top: 100px; /* Adjust margin as needed */
         text-align: center;
+} 
+.chu {
+    margin-top: -10px;
 }
+.personal-details__end__One {
+     display: flex;
+     justify-content:left;
+     flex-direction: row;
+     flex-wrap: wrap;
+     row-gap: 10px;
+     padding: 100px;
+     grid-template-areas: 
+     'item9 item10 item11 item12';
+}
+.my-div:hover {
+    border-bottom: 2px solid #00FF00;
+}
+.personal-details__end__Two_hangdau {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 5 cột cho item1 đến item5 */
+    grid-gap: 10px; 
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px; 
+}
+.item13,
+.item14,
+.item15{
+    display:flex;
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.chuhangdau {
+    margin-top: -70px;
+}
+
+.chuhangdau img {
+    margin-right: 10px; /* Khoảng cách giữa icon và dòng chữ */
+}
+
+.personal-details__end__Two_hangcuoi {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.item16,
+.item17 {
+    display:flex;
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.chuhangcuoi {
+    margin-top: -70px;
+}
+
+.chuhangcuoi img {
+    margin-right: 10px;
+}
+
+
+
+
