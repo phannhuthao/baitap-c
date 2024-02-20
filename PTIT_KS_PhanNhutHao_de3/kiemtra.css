@@ -100,6 +100,8 @@
 .item7,
 .item8,
 .item9 {
+    box-shadow: white;
+    border-radius: 10px;
     padding: 30px;
     margin-bottom: 30px;
     margin-right: 100px;
@@ -225,12 +227,18 @@ body {
 .item18,
 .item19,
 .item20 {
+    box-shadow: darkgray;
     text-align: right;
     padding: 20px;
     margin-bottom: 30px;
     margin-right: 600px;
     margin-top: -190px;
 }
+.rounded-image {
+    border-radius: 20px; /* Điều này sẽ cong các góc của ảnh với bán kính là 20 pixel */
+}
+
+
 
 
 
