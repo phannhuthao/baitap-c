@@ -60,29 +60,14 @@
     margin:  10px;
 }
 
-.item6 {
-    position: relative;
-    display: inline-block; 
-}
-
-
-
-.item7 {
-    position: relative;
-    display: inline-block; 
-}
-
-
-.item8 {
-    position: relative;
-    display: inline-block; 
-}
-
+.item6,
+.item7,
+.item8,
 .item9 {
     position: relative;
     display: inline-block; 
-    
 }
+
 .thongtin1,
 .thongtin2,
 .thongtin3,
@@ -103,8 +88,6 @@
 .item7,
 .item8,
 .item9 {
-    box-shadow: white;
-    border-radius: 10px;
     padding: 30px;
     margin-bottom: 30px;
     margin-right: 100px;
@@ -227,10 +210,10 @@
 .rounded-image {
     border-radius: 20px; /* Điều này sẽ cong các góc của ảnh với bán kính là 20 pixel */
 }
-.Sectionwork {
+/* .Sectionwork {
     border-radius: 5px;
     box-shadow: darkgray;
-}
+} */
 
 .about-me {
     font-family: sans-serif;
@@ -331,6 +314,34 @@
     font-size: medium;
   }
 
-
-
+  .Sectionwork {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .item10,
+  .item11,
+  .item12,
+  .item13 {
+    text-align: center;
+    color: white;
+  padding: 20px;
+    border: 1px black solid;
+    box-shadow: darkgray;
+    background-color: #18192d ;
+    border-radius: 15px; 
+    /* height:80px;
+    width: 200px; */
+    padding: 0 100px;
+  }
+ .item6,
+ .item7,
+ .item8,
+ .item9 {
+    border: 1px black solid;
+    box-shadow: darkgray;
+    background-color: #212335 ;
+    padding: 100 300x;
+    border-radius: 15px;
+ }
 
