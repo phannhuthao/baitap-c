@@ -60,14 +60,6 @@
     margin:  10px;
 }
 
-.item6,
-.item7,
-.item8,
-.item9 {
-    position: relative;
-    display: inline-block; 
-}
-
 .thongtin1,
 .thongtin2,
 .thongtin3,
@@ -88,6 +80,8 @@
 .item7,
 .item8,
 .item9 {
+    position: relative;
+    display: inline-block;
     padding: 30px;
     margin-bottom: 30px;
     margin-right: 100px;
@@ -196,24 +190,10 @@
     padding: 20px;
 }  
 
-.item17,
-.item18,
-.item19,
-.item20 {
-    box-shadow: darkgray;
-    text-align: right;
-    padding: 20px;
-    margin-bottom: 30px;
-    margin-right: 600px;
-    margin-top: -190px;
-}
+
 .rounded-image {
-    border-radius: 20px; /* Điều này sẽ cong các góc của ảnh với bán kính là 20 pixel */
+    border-radius: 20px; 
 }
-/* .Sectionwork {
-    border-radius: 5px;
-    box-shadow: darkgray;
-} */
 
 .about-me {
     font-family: sans-serif;
@@ -325,13 +305,11 @@
   .item13 {
     text-align: center;
     color: white;
-  padding: 20px;
+    padding: 20px;
     border: 1px black solid;
     box-shadow: darkgray;
     background-color: #18192d ;
     border-radius: 15px; 
-    /* height:80px;
-    width: 200px; */
     padding: 0 100px;
   }
  .item6,
@@ -344,4 +322,63 @@
     padding: 100 300x;
     border-radius: 15px;
  }
+
+.item14,
+.item15,
+.item16 {
+    border: 1px black solid;
+    box-shadow: darkgray;
+    background-color: #212335 ;
+    height: 120px;
+    width: 600px;
+    border-radius: 15px;
+}
+.item17,
+.item18,
+.item19 {
+    padding: 30px;
+    border: 1px black solid;
+    box-shadow: darkgray;
+    background-color: #212335 ;
+    height: 40px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.Getintouch {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+.left_it, .right_it {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-item {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .Getintouch {
+        grid-template-columns: 1fr;
+    }
+}
+
+.item20 {
+    padding: 30px;
+    border: 1px black solid;
+    box-shadow: darkgray;
+    background-color: #212335 ;
+    height: 70px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+
+
+
+
+ 
 
