@@ -237,6 +237,11 @@ body {
 .rounded-image {
     border-radius: 20px; /* Điều này sẽ cong các góc của ảnh với bán kính là 20 pixel */
 }
+.Sectionwork {
+    border-radius: 5px;
+    box-shadow: darkgray;
+}
+
 
 
 
