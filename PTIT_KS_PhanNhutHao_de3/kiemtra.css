@@ -92,8 +92,8 @@
     padding: 30px;
     margin: 15px;
     text-align: center;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    box-shadow:  darkgray;
+    border-radius: 5px;
 }
 
 .item6,
@@ -125,20 +125,6 @@
     text-align: center;
     
 }
-/* .Header {
-    display: flex;
-    align-items: center; 
-}
-
-.content {
-    display: flex;
-    align-items: center; 
-}
-
-
-.thuba {
-    flex-grow: 1; 
-} */
 
 
 
@@ -227,3 +213,24 @@ body {
     max-width: 100%;
     height: auto;
   }
+
+.item14,
+.item15,
+.item16{
+    text-align: left;
+    padding: 20px;
+}  
+
+.item17,
+.item18,
+.item19,
+.item20 {
+    text-align: right;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-right: 600px;
+    margin-top: -190px;
+}
+
+
+
