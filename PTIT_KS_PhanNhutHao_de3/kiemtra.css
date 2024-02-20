@@ -44,6 +44,9 @@
     display: flex;
     justify-content: center;
 }
+.item1 {
+    font-size: deeppink;
+}
 
 .item1,
 .item2,
@@ -120,23 +123,10 @@
     color: white;
     padding: 30px;
     display:flex;
-    /* width: 200px;
-    height: 60px;
-    padding: 20px;
-    margin: 15px; */
     text-align: center;
     
 }
 
-
-
-/* Background styling */
-body {
-    background:rgb(0, 0, 58);
-    color: white;
-    font-family: Arial, sans-serif;
-  }
-  
   /* Container layout */
   .container {
     display: flex;
@@ -242,7 +232,104 @@ body {
     box-shadow: darkgray;
 }
 
-
+.about-me {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-areas: 'item1 item1'
+                         'item2 item3';
+    color: white;
+    padding: 0 40px 0 40px;
+  }
+  .about-me__header {
+    grid-area: item1;
+    display: flex;
+    justify-content: center;
+  }
+  .about-me h3 {
+    font-size: 30px;
+  }
+  .purple {
+    color: purple;
+    margin-left: 10px;
+  }
+  .about-me__left {
+    padding-right: 10px;
+    grid-area: item2;
+    width: 560px;
+  
+  }
+  .about-me__left--infor {
+    display: flex;
+  }
+  .about-me__left--infor-1,
+  .about-me__left--infor-2,
+  .about-me__left--infor-3 {
+    margin: 50px 25px 0 0;
+  }
+  .about-me__left--infor-2,
+  .about-me__left--infor-3 {
+    opacity: 0.5;
+  }
+  .about-me__left--infor-1 p,
+  .about-me__left--infor-2 p,
+  .about-me__left--infor-3 p {
+    margin-bottom: 40px ;
+  }
+  .about-me__right {
+    padding-left: 10px;
+    grid-area: item3;
+    display: grid;
+    grid-template-areas: 'item4 item5'
+                         'item6 item7' ;
+    height: 500px;
+  }
+  .about-me__right-1 {
+    grid-area: item4;
+    border: 1px black solid;
+    border-radius: 15px;
+    background-color: #1f32cf36;
+    margin: 0 5px 5px 0;
+    height:230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me__right-2 {
+    grid-area: item5;
+    border: 1px black solid;
+    border-radius: 15px;
+    background-color: #1f32cf36;
+    margin: 0 0 5px 5px;
+    height:230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me__right-3 {
+    grid-area: item6;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin: 5px 5px 0 0;
+    background-color: #1f32cf36;
+    height:230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me__right-4 {
+    grid-area: item7;
+    border: 1px black solid;
+    border-radius: 15px;
+    background-color: #1f32cf36;
+    margin: 5px 0 0 5px;
+    height:230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me__right div h5 {
+    font-size: medium;
+  }
 
 
 
