@@ -15,15 +15,21 @@
 // }
 // console.log("Tổng các số lớn hơn 0 là: ", sum);
 
-let total = 0;
-let userInput;
+// let total = 0;
+// let userInput;
 
-do {
-    userInput = Number(prompt("Nhập một số nguyên dương: "));
-    if (!isNaN (userInput ) &&  userInput > 0) {
-        total += userInput;
-    } else {
-        break;
-    }
-}while (true);
-console.log("Tổng các số nguyên dương đã nhập là: ", + total);
+// do {
+//     userInput = Number(prompt("Nhập một số nguyên dương: "));
+//     if (!isNaN (userInput ) &&  userInput > 0) {
+//         total += userInput;
+//     } else {
+//         break;
+//     }
+// }while (true);
+// console.log("Tổng các số nguyên dương đã nhập là: ", + total);
+
+
+const name = ['Hao', 'Dat', ' An' ];
+
+// console.log(name.pop());
+name.splice(1,0,'Duy');
