@@ -1,17 +1,12 @@
-let arr = [1, 2, 3, 3.2, 5.3, 10];
-let hasInteger = false;
+let n = Number(prompt("Nhập một số nguyên dương bất kỳ: "));
+let sum = 0;
 
-for (let i = 0; i < arr.length; i++) {
-    if (Number.isInteger(arr[i])) {
-        console.log(arr[i]);
-        hasInteger = true;
+for (let i = 1; i <= n; i++) {
+    console.log(i);
+    sum += i;
+    if (sum % 2 === 0) {
+        sum++; 
     }
 }
 
-if (!hasInteger) {
-    console.log("Trong mảng không tồn tại số nguyên");
-}
-
-
-
-
+console.log("Tổng các số là:", sum);

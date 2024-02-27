@@ -1,12 +1,18 @@
-let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let a = Number(prompt("Nhập số nguyên dương a: "));
+let b = Number(prompt("Nhập số nguyên dương b: "));
 
-let timkiem = Number(prompt("Nhập giá trị tìm phần tử trong mảng: "));
+let sole = 0;
+let sochan = 0;
 
-let index = arr.indexOf(timkiem);
-
-if (index !== -1) {
-    console.log("Vị trí của phần tử", timkiem, "trong mảng là", index);
-    console.log("Các phần từ có trong mảng là: ", arr)
+if (a === 0 && b === 0) {
+    console.log("Vui lòng nhập lại: ")
 } else {
-    console.log("Phần tử không tồn tại trong mảng");
+    let sum = 0;
+    const start = Math.min(a, b);
+    const end = Math.max(a, b);
+    for (let i = start; i <= end; i++) {
+        sum += i;
+    }
+    console.log("Tổng các số nguyên từ " + start + " đến " + end + " là: " + sum);
 }
+

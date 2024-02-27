@@ -1,19 +1,18 @@
+const number = Number(prompt('nhập số nguyên dương:'));
 
-let a = Number(prompt("Nhập số nguyên dương a: "));
-let b = Number(prompt("Nhập số nguyên dương b: "));
-
-let arra = [];
-let arrb = [];
-
-for (let i = 1; i <= a; i++) {
-    if ( i % b === 0) {
-        arrb.push(i);
-    }
-}
-
-if (arrb.length > 0) {
-    console.log("Các sô chia hết cho", b, "là: ", a);
-    console.log(arrb);
+if (isNaN(number) || number <= 0) {
+    console.log("Vui lòng nhập một số nguyên dương.");
 } else {
-    console.log("Không có số nào chia hết cho ",b);
+    let sum = 0;
+
+    for (let i = 2; ; i += 2) {
+        const square = i * i;
+        if (sum + square >= number) {
+            break;
+        }
+        console.log(square);
+        sum += square;
+    }
+
+    console.log("Tổng các số đã in ra: " + sum);
 }

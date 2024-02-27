@@ -1,12 +1,12 @@
-let arr = [2, 4, 5, 3, 2, 6, 7, 9, 10, 1, 2, 6];
+let n = Number(prompt("Nhập số nguyên dương n: "));
+let sum = 0;
+let m = 0;
 
-let nhap = Number(prompt("Nhập một số nguyên bất kì vào mảng: "));
-let biendem = 0;
-
-for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === nhap) {
-        biendem++;
-    }
+while (sum < n) {
+    m++;
+    sum += m;
 }
-console.log("Số lần xuất hiện của ", nhap, "là: ", biendem);
-console.log("Các thành phần của mảng: ", arr);
+
+m--;
+
+console.log("Số nguyên dương m lớn nhất sao cho tổng từ 1 đến m nhỏ hơn", n, "là:", m);
