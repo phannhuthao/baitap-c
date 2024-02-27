@@ -3,7 +3,7 @@ let n = Number(prompt("Nhập số nguyên dương bất kì:" ));
 if (n <= 0) {
     let n = Number(prompt("Số bạn vừa nhập sai. Vui lòng nhập số nguyên dương lại:" )) 
 
-    function đảo_ngược(num) {
+    function đảongược(num) {
         let reversed = 0;
         while (num > 0) {
             reversed = reversed * 10 + num % 10;
@@ -11,11 +11,10 @@ if (n <= 0) {
         }
         return reversed;
     }
-    console.log("Số đảo ngược của", n, "là:", đảo_ngược(n));
+    console.log("Số đảo ngược của", n, "là:", đảongược(n));
 } 
 
-
-function đảo_ngược(num) {
+function đảongược(num) {
     let reversed = 0;
     while (num > 0) {
         reversed = reversed * 10 + num % 10;
@@ -24,4 +23,4 @@ function đảo_ngược(num) {
     return reversed;
 }
 
-console.log("Số đảo ngược của", n, "là:", đảo_ngược(n));
+console.log("Số đảo ngược của", n, "là:", đảongược(n));
